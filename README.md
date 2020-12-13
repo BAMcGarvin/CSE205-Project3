@@ -6,22 +6,37 @@ Your program shall meet these requirements:
 1. Student information for students in a course is stored in a text file named gradebook.txt. There is one student record per line, where the format of a student record is:
 last-name first-name hw1 hw2 hw3 hw4 exam1 exam2       where:
 
+
 last-name = The student's last name. A contiguous string of characters, with no spaces.
+
 first-name = The student's first name. A contiguous string of characters, with no spaces.
+
 hw1-hw4 = The student's scores on four homework assignments, may be zeros.
-exam1-exam2 = The student's scores on two exams, may be zeros.\
+
+exam1-exam2 = The student's scores on two exams, may be zeros.
 
 Here is an example gradebook.txt file: Sample gradebook.txt
+
 Simpson Lisa 25 25 25 25 100 100
+
 Flintstone Fred 15 17 22 18 80 60
+
 Jetson George 20 21 22 23 70 83
+
 Explosion Nathan 5 4 3 2 1 0
+
 Muntz Nelson 20 15 10 5 60 70
+
 Terwilliger Robert 23 21 19 17 80 90
+
 Flanders Ned 12 14 17 23 85 95
+
 Bouvier Selma 16 16 16 16 16 16
+
 Spuckler Cletus 1 2 3 4 5 6
+
 Wiggum Clancy 6 5 4 3 2 1
+
 Skinner Seymour 19 23 21 24 78 83
 
 2. When the program starts, it shall read the contents of gradebook.txt and sort the list of students into ascending order.
