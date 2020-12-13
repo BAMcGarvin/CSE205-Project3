@@ -11,8 +11,7 @@ first-name = The student's first name. A contiguous string of characters, with n
 hw1-hw4 = The student's scores on four homework assignments, may be zeros.
 exam1-exam2 = The student's scores on two exams, may be zeros.\
 
-Here is an example gradebook.txt file:
-Sample gradebook.txt
+Here is an example gradebook.txt file: Sample gradebook.txt
 Simpson Lisa 25 25 25 25 100 100
 Flintstone Fred 15 17 22 18 80 60
 Jetson George 20 21 22 23 70 83
